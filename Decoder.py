@@ -11,7 +11,8 @@ b = ''
 i = 0
 number = ''
 
-for i, char in enumerate(s):
+for i in range(len(s)):
+    char = s[i]
     if char >= 'A':
         b = char
     else:
